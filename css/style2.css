@@ -34,9 +34,20 @@ p a:hover {
     color: #dddddd;
 }
 
+.home{
+    text-align: left;
+}
+
+.home a {
+    color: #fff;
+}
+
+.home a:hover {
+    color: #dddddd;
+}
+
 .social-icons{
-    background-color: #dddddd;
-    text-align: center;
+    text-align: right;
 }
 
 .fa-facebook, .fa-facebook-square {
@@ -52,10 +63,17 @@ p a:hover {
     color: #007bb6
 }
 .fa-instagram {
-    color: #517fa4;
+	color: transparent;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #b028eb 90%);
+	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background-clip: text;
+	-webkit-background-clip: text;
 }
-.fa-github-square {
+.fa-github {
     color: black;
+}
+.fa-whatsapp  {
+    color: #25d366;
 }
 @media ( min-width :768px) {
 
