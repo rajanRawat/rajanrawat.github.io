@@ -14,7 +14,7 @@
 }
 
 .profile-icon img:hover {
-	transform: scale(1.1);
+	transform: scale(1.3);
     transition: all .25s;
 }
 
